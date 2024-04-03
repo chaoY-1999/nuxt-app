@@ -3,7 +3,6 @@
     <NuxtWelcome />
   </div>
 </template>
-<script setup>
-const year: number = '2022'
-const prop = toRefs<String>({ year })
+<script setup lang="ts">
+const year: string = '2022'
 </script>
